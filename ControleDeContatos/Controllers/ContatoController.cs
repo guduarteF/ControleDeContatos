@@ -8,6 +8,17 @@ namespace ControleDeContatos.Controllers
     public class ContatoController : Controller
     {
         private readonly IContatoRepositorio _contatoRepositorio;
+
+        public void FeatureNova()
+        {
+            // TESTE BRANCH 
+        }
+
+        public void FeatureDescartada()
+        {
+            // TESTE 2nd BRANCH 
+        }
+
         public ContatoController(IContatoRepositorio contatoRepositorio)
         {
             _contatoRepositorio = contatoRepositorio;
