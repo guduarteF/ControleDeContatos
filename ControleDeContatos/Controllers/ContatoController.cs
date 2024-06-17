@@ -14,10 +14,7 @@ namespace ControleDeContatos.Controllers
             // TESTE BRANCH 
         }
 
-        public void FeatureDescartada()
-        {
-            // TESTE 2nd BRANCH 
-        }
+        
 
         public ContatoController(IContatoRepositorio contatoRepositorio)
         {
